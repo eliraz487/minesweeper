@@ -18,7 +18,7 @@ public class MineSweeper {
     private final int MAXCOL = 10;//the maximum columns in the bord game
     private final int MINROW = 3;//the minimum rows in the bord game
     private final int MINCOL = 3;//the minimum columns in the bord game
-    private boolean iswin = false;
+    private boolean iswin = false;//if the player finshed the game
 
     /**
      * the function create the game by the logic
