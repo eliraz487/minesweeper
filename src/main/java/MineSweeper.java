@@ -253,6 +253,11 @@ public class MineSweeper {
         return bordgame;
     }
 
+    /**
+     * the function check if the player win
+     * the player win if he open all the squrl there not mine
+     * @return if the player win
+     */
     private boolean isWin() {
         for (int rowindex = 0; rowindex < bordgame.length; rowindex++) {
             for (int colindex = 0; colindex < bordgame[0].length; colindex++) {
